@@ -97,6 +97,12 @@ AxisToolButton:checked {
 
 /* Style the tab using the tab sub-control. Note that it reads QTabBar _not_ QTabWidget */
 /** Tab Widget **/
+QTabWidget::pane {
+  border: 1px solid gray;
+  top:-1px; 
+      background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #606060, stop:1 #202020);
+}
+
 QTabBar::tab {
     background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #303030, stop:1 #909090);
     border: 1px solid black;
@@ -160,7 +166,7 @@ QComboBox {
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #606060, stop:1 #202020);
     border: 1px solid black;
     border-radius: 2px;
-    min-width: 60px;
+    min-width: 100px;
     padding: 1px 0px 1px 8px;
     font: 12pt "Bebas Kai";
     color: #e0e0e0;
