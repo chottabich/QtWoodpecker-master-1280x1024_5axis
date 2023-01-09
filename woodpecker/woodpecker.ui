@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1280</width>
-    <height>1024</height>
+    <height>1000</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -1736,6 +1736,9 @@ TOUCHY</string>
                                    <property name="toolTip">
                                     <string>Hold to save current view</string>
                                    </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 11pt &quot;Bebas Kai&quot;;</string>
+                                   </property>
                                    <property name="text">
                                     <string>User
 View</string>
@@ -1782,6 +1785,9 @@ View</string>
                                    </property>
                                    <property name="toolTip">
                                     <string>Set view P</string>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>P</string>
@@ -1868,6 +1874,9 @@ View</string>
                                    <property name="toolTip">
                                     <string>Set view X</string>
                                    </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
+                                   </property>
                                    <property name="text">
                                     <string>X</string>
                                    </property>
@@ -1949,6 +1958,9 @@ View</string>
                                    </property>
                                    <property name="toolTip">
                                     <string>Set view Y</string>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>Y</string>
@@ -2032,6 +2044,9 @@ View</string>
                                    <property name="toolTip">
                                     <string>Set view Z</string>
                                    </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
+                                   </property>
                                    <property name="text">
                                     <string>Z</string>
                                    </property>
@@ -2102,8 +2117,36 @@ View</string>
                                    <property name="toolTip">
                                     <string>Toggle display overlay dro on</string>
                                    </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
+                                   </property>
                                    <property name="text">
                                     <string>DRO</string>
+                                   </property>
+                                   <property name="checkable">
+                                    <bool>true</bool>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                 <item>
+                                  <widget class="PushButton" name="btn_show_offsets">
+                                   <property name="minimumSize">
+                                    <size>
+                                     <width>50</width>
+                                     <height>40</height>
+                                    </size>
+                                   </property>
+                                   <property name="maximumSize">
+                                    <size>
+                                     <width>50</width>
+                                     <height>40</height>
+                                    </size>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 12pt &quot;Bebas Kai&quot;;</string>
+                                   </property>
+                                   <property name="text">
+                                    <string>Offsets</string>
                                    </property>
                                    <property name="checkable">
                                     <bool>true</bool>
@@ -2132,6 +2175,9 @@ View</string>
                                    </property>
                                    <property name="toolTip">
                                     <string>Toggle display dimensions</string>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>D</string>
@@ -2179,6 +2225,9 @@ View</string>
                                    </property>
                                    <property name="toolTip">
                                     <string>Zoom in</string>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 20pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>+</string>
@@ -2261,6 +2310,9 @@ View</string>
                                    </property>
                                    <property name="toolTip">
                                     <string>Zoom out</string>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 20pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>-</string>
@@ -2346,6 +2398,9 @@ View</string>
                                    </property>
                                    <property name="autoFillBackground">
                                     <bool>false</bool>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true">font: 75 15pt &quot;Bebas Kai&quot;;</string>
                                    </property>
                                    <property name="text">
                                     <string>C</string>
@@ -18485,11 +18540,11 @@ WHEEL</string>
    <hints>
     <hint type="sourcelabel">
      <x>217</x>
-     <y>642</y>
+     <y>573</y>
     </hint>
     <hint type="destinationlabel">
      <x>218</x>
-     <y>901</y>
+     <y>877</y>
     </hint>
    </hints>
   </connection>
@@ -18500,12 +18555,12 @@ WHEEL</string>
    <slot>btn_clear_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>691</x>
-     <y>125</y>
+     <x>99</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1431</x>
-     <y>-13</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18516,12 +18571,12 @@ WHEEL</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>694</x>
-     <y>197</y>
+     <x>99</x>
+     <y>79</y>
     </hint>
     <hint type="destinationlabel">
      <x>512</x>
-     <y>-6</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18532,12 +18587,12 @@ WHEEL</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>694</x>
-     <y>263</y>
+     <x>99</x>
+     <y>79</y>
     </hint>
     <hint type="destinationlabel">
      <x>500</x>
-     <y>-9</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18548,12 +18603,12 @@ WHEEL</string>
    <slot>btn_gcode_edit_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>744</x>
-     <y>563</y>
+     <x>99</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>686</x>
-     <y>-3</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18564,12 +18619,12 @@ WHEEL</string>
    <slot>btn_home_all_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>895</x>
-     <y>642</y>
+     <x>896</x>
+     <y>565</y>
     </hint>
     <hint type="destinationlabel">
      <x>872</x>
-     <y>-13</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18580,12 +18635,12 @@ WHEEL</string>
    <slot>btn_home_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>895</x>
-     <y>693</y>
+     <x>896</x>
+     <y>617</y>
     </hint>
     <hint type="destinationlabel">
      <x>921</x>
-     <y>-1</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18596,8 +18651,8 @@ WHEEL</string>
    <slot>btn_home_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>895</x>
-     <y>744</y>
+     <x>896</x>
+     <y>669</y>
     </hint>
     <hint type="destinationlabel">
      <x>959</x>
@@ -18612,8 +18667,8 @@ WHEEL</string>
    <slot>btn_home_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>895</x>
-     <y>795</y>
+     <x>896</x>
+     <y>720</y>
     </hint>
     <hint type="destinationlabel">
      <x>959</x>
@@ -18628,12 +18683,12 @@ WHEEL</string>
    <slot>btn_load_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>694</x>
-     <y>79</y>
+     <x>99</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>676</x>
-     <y>-14</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18660,12 +18715,12 @@ WHEEL</string>
    <slot>spindle_slover()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1184</x>
-     <y>728</y>
+     <x>1181</x>
+     <y>675</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1706</x>
-     <y>-15</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18676,12 +18731,12 @@ WHEEL</string>
    <slot>spindle_faster()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1184</x>
-     <y>658</y>
+     <x>1181</x>
+     <y>605</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1726</x>
-     <y>-9</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18696,8 +18751,8 @@ WHEEL</string>
      <y>71</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1435</x>
-     <y>-19</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18708,12 +18763,12 @@ WHEEL</string>
    <slot>cam_zoom_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>721</x>
-     <y>151</y>
+     <x>49</x>
+     <y>119</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1508</x>
-     <y>-66</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18724,12 +18779,12 @@ WHEEL</string>
    <slot>cam_dia_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>721</x>
-     <y>328</y>
+     <x>49</x>
+     <y>119</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1482</x>
-     <y>-71</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18740,12 +18795,12 @@ WHEEL</string>
    <slot>cam_rot_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>721</x>
-     <y>504</y>
+     <x>49</x>
+     <y>119</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1481</x>
-     <y>-5</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18756,12 +18811,12 @@ WHEEL</string>
    <slot>chk_inhibit_selection_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>308</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>564</x>
-     <y>-84</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18772,12 +18827,12 @@ WHEEL</string>
    <slot>chk_alpha_mode_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>279</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>538</x>
-     <y>-80</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18788,12 +18843,12 @@ WHEEL</string>
    <slot>chk_override_limits_checked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>569</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>669</x>
-     <y>-18</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18804,12 +18859,12 @@ WHEEL</string>
    <slot>chk_run_from_line_checked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>453</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>693</x>
-     <y>-102</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18820,12 +18875,12 @@ WHEEL</string>
    <slot>chk_use_camera_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>540</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>408</x>
-     <y>-64</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18836,12 +18891,12 @@ WHEEL</string>
    <slot>chk_use_virtual_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>482</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>499</x>
-     <y>-82</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18852,12 +18907,12 @@ WHEEL</string>
    <slot>apply_stylesheet_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>628</x>
-     <y>528</y>
+     <x>119</x>
+     <y>54</y>
     </hint>
     <hint type="destinationlabel">
      <x>1111</x>
-     <y>-7</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18868,12 +18923,12 @@ WHEEL</string>
    <slot>cone_size_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>498</x>
-     <y>443</y>
+     <x>169</x>
+     <y>59</y>
     </hint>
     <hint type="destinationlabel">
      <x>1186</x>
-     <y>-13</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18884,12 +18939,12 @@ WHEEL</string>
    <slot>grid_size_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>498</x>
-     <y>393</y>
+     <x>169</x>
+     <y>59</y>
     </hint>
     <hint type="destinationlabel">
      <x>1147</x>
-     <y>-6</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18904,8 +18959,8 @@ WHEEL</string>
      <y>170</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1472</x>
-     <y>-90</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18920,8 +18975,8 @@ WHEEL</string>
      <y>71</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1413</x>
-     <y>-4</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18932,12 +18987,12 @@ WHEEL</string>
    <slot>chk_use_sensor_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>171</x>
-     <y>511</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>882</x>
-     <y>-125</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18952,8 +19007,8 @@ WHEEL</string>
      <y>178</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1862</x>
-     <y>-54</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18965,11 +19020,11 @@ WHEEL</string>
    <hints>
     <hint type="sourcelabel">
      <x>117</x>
-     <y>642</y>
+     <y>573</y>
     </hint>
     <hint type="destinationlabel">
      <x>56</x>
-     <y>-12</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -18981,7 +19036,7 @@ WHEEL</string>
    <hints>
     <hint type="sourcelabel">
      <x>71</x>
-     <y>307</y>
+     <y>279</y>
     </hint>
     <hint type="destinationlabel">
      <x>549</x>
@@ -18997,11 +19052,11 @@ WHEEL</string>
    <hints>
     <hint type="sourcelabel">
      <x>217</x>
-     <y>757</y>
+     <y>705</y>
     </hint>
     <hint type="destinationlabel">
      <x>456</x>
-     <y>-20</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19017,7 +19072,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>211</x>
-     <y>-70</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19044,12 +19099,12 @@ WHEEL</string>
    <slot>slow_button_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1184</x>
-     <y>363</y>
+     <x>1149</x>
+     <y>347</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1760</x>
-     <y>-14</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19060,12 +19115,12 @@ WHEEL</string>
    <slot>slow_button_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>851</x>
-     <y>500</y>
+     <x>881</x>
+     <y>493</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1554</x>
-     <y>-13</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19096,8 +19151,8 @@ WHEEL</string>
      <y>57</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1555</x>
-     <y>-5</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19209,7 +19264,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>1167</x>
-     <y>-105</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19252,12 +19307,12 @@ WHEEL</string>
    <slot>btn_save_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>691</x>
-     <y>181</y>
+     <x>99</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>730</x>
-     <y>-65</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19300,8 +19355,8 @@ WHEEL</string>
    <slot>btn_maxv_50_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>56</x>
-     <y>625</y>
+     <x>76</x>
+     <y>556</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19316,8 +19371,8 @@ WHEEL</string>
    <slot>btn_maxv_100_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>56</x>
-     <y>625</y>
+     <x>76</x>
+     <y>556</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19353,7 +19408,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>1071</x>
-     <y>-83</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19368,8 +19423,8 @@ WHEEL</string>
      <y>52</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1400</x>
-     <y>-43</y>
+     <x>1279</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19380,12 +19435,12 @@ WHEEL</string>
    <slot>disable_spindle_pause()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>189</x>
-     <y>337</y>
+     <x>119</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>211</x>
-     <y>-9</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19397,11 +19452,11 @@ WHEEL</string>
    <hints>
     <hint type="sourcelabel">
      <x>217</x>
-     <y>642</y>
+     <y>573</y>
     </hint>
     <hint type="destinationlabel">
      <x>110</x>
-     <y>-79</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19412,8 +19467,8 @@ WHEEL</string>
    <slot>btn_gripper_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>744</x>
-     <y>563</y>
+     <x>99</x>
+     <y>69</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19433,7 +19488,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>189</x>
-     <y>-5</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19449,7 +19504,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>814</x>
-     <y>-121</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19465,7 +19520,7 @@ WHEEL</string>
     </hint>
     <hint type="destinationlabel">
      <x>634</x>
-     <y>-57</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19476,12 +19531,12 @@ WHEEL</string>
    <slot>tab_utilities_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>41</x>
-     <y>191</y>
+     <x>59</x>
+     <y>49</y>
     </hint>
     <hint type="destinationlabel">
      <x>61</x>
-     <y>-19</y>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
@@ -19492,8 +19547,8 @@ WHEEL</string>
    <slot>btn_pause_spindle_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>70</x>
-     <y>732</y>
+     <x>114</x>
+     <y>705</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19508,8 +19563,8 @@ WHEEL</string>
    <slot>btn_enable_comp_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>281</x>
-     <y>709</y>
+     <x>320</x>
+     <y>561</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19524,8 +19579,8 @@ WHEEL</string>
    <slot>btn_gripper_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>704</x>
-     <y>400</y>
+     <x>99</x>
+     <y>79</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19540,8 +19595,8 @@ WHEEL</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>978</x>
-     <y>433</y>
+     <x>873</x>
+     <y>57</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19556,8 +19611,8 @@ WHEEL</string>
    <slot>slider_maxv_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>191</x>
-     <y>591</y>
+     <x>116</x>
+     <y>562</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
@@ -19572,12 +19627,44 @@ WHEEL</string>
    <slot>slider_rapid_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>191</x>
-     <y>684</y>
+     <x>116</x>
+     <y>562</y>
     </hint>
     <hint type="destinationlabel">
      <x>639</x>
      <y>511</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gcodegraphics</sender>
+   <signal>percentLoaded(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>percent_loaded_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>412</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>743</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_show_offsets</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>btn_show_offsets_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>-12</y>
     </hint>
    </hints>
   </connection>
@@ -19637,12 +19724,13 @@ WHEEL</string>
   <slot>mdi_select_text()</slot>
   <slot>mdi_enter_pressed()</slot>
   <slot>use_mdi_keyboard_changed()</slot>
-  <slot>slot1()</slot>
+  <slot>percent_loaded_changed()</slot>
+  <slot>btn_show_offsets_clicked()</slot>
  </slots>
  <buttongroups>
   <buttongroup name="axis_buttonGroup"/>
+  <buttongroup name="start_buttonGroup"/>
   <buttongroup name="mode_buttonGroup"/>
   <buttongroup name="page_buttonGroup"/>
-  <buttongroup name="start_buttonGroup"/>
  </buttongroups>
 </ui>
